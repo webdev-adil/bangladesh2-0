@@ -1,26 +1,52 @@
-
-
-body{
-    margin:2% 10%
+body {
+  margin:2% 10%;
 }
 
-  .fira-sans-regular {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .banner{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-.banner-content{
-    max-width: 622px;
-    max-height: 326px;
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-  .banner-image{
-    width: 474px;
-    height: 400px;
-  }
+.header{
+  size:1280px 560px;
+  background-color:#C6E4D6;
+  border-radius: 24px;
+  padding:60px 80px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-title{
+  color:grey;
+  font-size: 24px;
+}
+
+.banner-content {
+  max-width: 622px;
+  max-height: 300px;
+}
+
+.banner-image {
+  width: 474px;
+  height: 400px;
+}
+
+.banner-intro{
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.btn-banner{
+  size: 270px 56px;
+  background-color: #006A50;
+  border-radius: 8px;
+  padding: 17px 34px;
+  color: white;
+  font-weight:400;
+  font-size: 18px;
+
+}
