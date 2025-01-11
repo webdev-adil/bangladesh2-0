@@ -1,0 +1,26 @@
+
+
+body{
+    margin:2% 10%
+}
+
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .banner{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.banner-content{
+    max-width: 622px;
+    max-height: 326px;
+}
+
+  .banner-image{
+    width: 474px;
+    height: 400px;
+  }
