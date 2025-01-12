@@ -132,6 +132,11 @@
   background-position: 20px 30px;
 }
 
+.btn-quote {
+  background-color: none;
+  cursor: pointer;
+}
+
 .opinion-table {
   background-color: white;
   width: 100%;
@@ -172,7 +177,7 @@
   margin-bottom: 25px;
   display: flex;
   justify-content: space-between;
-  gap:24px;
+  gap: 24px;
 }
 
 .news-content {
@@ -187,11 +192,11 @@
   border-radius: 24px
 }
 
-.date-margin{
+.date-margin {
   margin-right: 10px;
 }
 
-.btn-read-more{
+.btn-read-more {
   height: 48px;
   width: 139px;
   color: white;
