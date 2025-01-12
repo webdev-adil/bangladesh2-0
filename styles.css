@@ -1,11 +1,12 @@
-*{
+* {
   margin: 0;
 }
 
-.bg-theme{
-  background-color:rgb(241, 239, 239)
+.bg-theme {
+  background-color: rgb(241, 239, 239);
 }
-.page-width{
+
+.page-width {
   max-width: 1280px;
   margin: 0px 160px 0px 160px;
 }
@@ -167,21 +168,39 @@
 .news-section {
   background-color: white;
   border-radius: 16px;
-  padding: 30px 30px;
+  padding: 50px 30px 50px 30px;
   margin-bottom: 25px;
   display: flex;
   justify-content: space-between;
+  gap:24px;
 }
 
 .news-content {
-  width: 60%;
-  margin-top: 50px;
+
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .news-image {
   width: 408px;
   height: 306px;
   border-radius: 24px
+}
+
+.date-margin{
+  margin-right: 10px;
+}
+
+.btn-read-more{
+  height: 48px;
+  width: 139px;
+  color: white;
+  background-color: #006A50;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
 }
 
 .outline-txt {
@@ -198,26 +217,34 @@
   border-radius: 16px;
   border: none;
   background-color: white;
+  cursor: pointer;
+}
+
+.btn-donate:hover {
+
+  background-color: #C6E4D6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn-donate-align {
-  max-width: 1071px;
   display: flex;
   justify-content: space-between;
-  margin: 32px 104.5px 32px 104.5px;
+  gap: 24px;
+  margin: 32px 104px 32px 104px;
 }
 
 .donate-box {
-  width: 1032px;
+  width: 900px;
   height: 64px;
-  margin: 0px 124px 0px 124px;
+  margin: 32px 124px 32px 124px;
   text-align: center;
   font-size: 20px;
   border: none;
 }
 
+
 .btn-donate-now {
-  margin: 32px 564.5px 0px 564.5px;
+  margin: 32px 500px 32px 500px;
   width: 151px;
   height: 56px;
   color: white;
@@ -225,28 +252,26 @@
   border-radius: 8px;
   font-size: 18px;
   font-weight: 500;
-  border:none;
+  border: none;
 }
 
-.newsletter {
-  background-color: #C6E4D6;
+.section-newsletter {
   margin: 80px 0px 80px 0px;
+  background-color: #C6E4D6;
+  padding: 80px 265px 80px 265px;
   border-radius: 24px;
-  width: 1280px;
-  height: 395px;
-  padding: 80px 0px 80px 0px;
 }
 
-.newsletter-emailbox {
+.newsletter-email-box {
   height: 55px;
   width: 600px;
   font-size: 16px;
-  padding-left: 40px;
-  border:none;
+  border: none;
   border-radius: 12px 0px 0px 12px;
+  padding-left: 40px;
 }
 
-.btn-subscribe{
+.btn-subscribe {
   width: 151px;
   height: 56px;
   color: white;
@@ -258,25 +283,28 @@
   border-radius: 0px 12px 12px 0px;
 }
 
-.newsletter-subscription{
+.newsletter-subscription {
   display: flex;
-  margin: 0px 265px 24px 265px;
 }
 
-.font-group-2{
+.font-group-2 {
   font-size: 32px;
   text-decoration: none;
   color: black;
 }
 
-.footer-section{
+.footer-section {
   max-width: 1122px;
   margin: 50px 79px 50px 79px;
 }
 
-.follow-icon{
+.follow-icon {
   margin-top: 32px;
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+main {
+  padding-bottom: 80px;
 }
