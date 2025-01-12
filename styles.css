@@ -1,11 +1,41 @@
-body{
- margin: 10px 80px;
+* {
+  margin: 0;
+}
+
+body {
+  margin: 10px 80px;
+  background-color: rgb(241, 239, 239);
 }
 
 .fira-sans-regular {
   font-family: "Fira Sans", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.nav-display {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+.top-txt{
+text-decoration: none;
+font-size: 24pt;
+color: black;
+}
+
+.btn-sign{
+  color:#006A50;
+  width: 120px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 8px;
+  border-color: #006A50;
+  padding: 10px 24px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .header {
@@ -58,4 +88,110 @@ body{
   color: white;
   font-weight: 400;
   font-size: 18px;
+}
+
+
+.section-gap{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.pillars-card{
+  background-color:white;
+  width: 270px;
+  border-radius: 12px;
+  padding: 10px 20px;
+  justify-content:left;
+}
+
+.section-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.vision-card-1{
+background-color:#bdd1f4;
+width: 380px;
+border-radius: 12px;
+padding:10px 20px;
+justify-content: left;
+}
+.vision-card-2{
+background-color:#C6E4D6;
+width: 380px;
+border-radius: 12px;
+padding:10px 20px;
+justify-content: left;
+}
+.vision-card-3{
+background-color:#F7EBCF;
+width: 380px;
+border-radius: 12px;
+padding:10px 20px;
+justify-content: left;
+}
+
+.quotation-box{
+  background-color: white;
+  border-radius: 12px;
+  padding: 60px 20px;
+  justify-content:left;
+  text-align: justify;
+  background-image: url('assets/quote-bg.png');
+  background-repeat: no-repeat;
+  background-position:20px 30px;
+}
+
+.opinion-table{
+  background-color: white;
+  width:100%;
+  border-radius: 12px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.opinion-table th {
+  padding: 15px;
+  text-align: left;
+  font-size: 18px;
+  color: black;
+}
+
+.opinion-table td {
+  padding: 15px;
+  font-size: 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #C6E4D6;
+  border-radius: 8px;
+  background-color: #C6E4D6;
+  color: black;
+  cursor: pointer;
+}
+
+.news-section{
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px 20px;
+  margin-bottom: 25px;
+}
+
+.news-content{
+width:60%
+}
+
+.news-image{
+  border-radius: 12px;
+  width: 100px;
+  height: 100px;
+}
+
+.news-display{
+display: flex;
 }
