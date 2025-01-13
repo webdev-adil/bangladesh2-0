@@ -18,7 +18,7 @@
 }
 
 .nav-display {
-  padding-bottom:28px;
+  padding-bottom: 28px;
   display: flex;
   justify-content: space-between;
 }
@@ -78,7 +78,7 @@
   justify-content: left;
 }
 
-.pillars-card:hover{
+.pillars-card:hover {
   background-color: #C6E4D6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -89,7 +89,7 @@
   gap: 16px;
 }
 
-.font-group-3{
+.font-group-3 {
   font-size: 20px;
   font-weight: 600;
 }
@@ -118,7 +118,7 @@
   justify-content: left;
 }
 
-.btn-learn-more-1{
+.btn-learn-more-1 {
   width: 122px;
   height: 41px;
   background-color: #5490F5;
@@ -129,7 +129,8 @@
   font-size: 16px;
   cursor: pointer;
 }
-.btn-learn-more-2{
+
+.btn-learn-more-2 {
   width: 122px;
   height: 41px;
   background-color: #09A15C;
@@ -140,7 +141,8 @@
   font-size: 16px;
   cursor: pointer;
 }
-.btn-learn-more-3{
+
+.btn-learn-more-3 {
   width: 122px;
   height: 41px;
   background-color: #FFC239;
@@ -150,6 +152,11 @@
   font-weight: 400;
   font-size: 16px;
   cursor: pointer;
+}
+
+.font-group-1 {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
 }
 
 .quotation-box {
@@ -289,18 +296,19 @@
   font-size: 18px;
   font-weight: 500;
   border: none;
+  cursor: pointer;
 }
 
 .section-newsletter {
   margin: 80px 0px 80px 0px;
   background-color: #C6E4D6;
-  padding: 80px 265px 80px 265px;
+  padding: 80px 215px 80px 215px;
   border-radius: 24px;
 }
 
 .newsletter-email-box {
   height: 55px;
-  width: 600px;
+  width: 550px;
   font-size: 16px;
   border: none;
   border-radius: 12px 0px 0px 12px;
@@ -317,6 +325,7 @@
   font-weight: 500;
   border: none;
   border-radius: 0px 12px 12px 0px;
+  cursor: pointer;
 }
 
 .newsletter-subscription {
@@ -338,7 +347,12 @@
   margin-top: 32px;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.follow-icon:hover {
+  transform: scale(1.2);
 }
 
 main {
